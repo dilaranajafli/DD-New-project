@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müraciət Formu</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body bgcolor="35384B">
+    <table style="margin-left: auto;margin-right: auto;" border="1">
+        <thead bgcolor="B7E5B4">
+            <th colspan="3">Müraciət et</th>
+            <tr>
+                <th>Şəkil yükləyin</th>
+                <td colspan="2" bgcolor="B5C1D1" align="center">
+                    <form>
+
+                        <input type="file" name="img" id="img">
+
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Ad</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <form>
+
+                        <input type="text" name="name" id="name" placeholder="Ad" color="B5C1D1">
+
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Soyad</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <form>
+
+                        <input type="text" name="name" id="name" placeholder="Soyad" color="B5C1D1">
+
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Dogum tarixi</th>
+                <td bgcolor="B5C1D1" align="center" colspan="2">
+                    <form>
+
+                        <input type="date" name="name" id="name" color="B5C1D1">
+
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Cinsiyyet</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <b>
+                        <form>
+
+                            <label for="kişi">kişi</label> <input type="radio" name="kişi" id="kişi">
+                            <label for="qadin">qadin</label> <input type="radio" name="qadin" id="qadin">
+
+                        </form>
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <form>
+
+                        <input type="text" name="name" id="name" placeholder="Emailinizi yazin" color="B5C1D1">
+
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="3">Əlaqə</th>
+            </tr>
+            <tr bgcolor="CCD3CC">
+                <th style="width: 50px;">tel:</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <form>
+                        <input type="text" name="name" id="name" placeholder="phone" color="B5C1D1">
+                    </form>
+                </td>
+            </tr>
+            <tr bgcolor="CCD3CC">
+                <th style="width: 50px;">tel:</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <form>
+                        <input type="text" name="name" id="name" placeholder="phone" color="B5C1D1">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Təcrübələriniz</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <form>
+                        <textarea style="color: grey; width: 300px;" id="tecrb" name="tecrb" rows="4"
+                            cols="20">Təcrübələrinizi qeyd edin...</textarea>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Xarici diller</th>
+                <td bgcolor="B5C1D1" align="center" colspan="2">
+                    <b>
+                        <form>
+                            <label for="xdil">İngilis dili</label><input type="radio" name="xdil" id="xdil">
+                            <label for="xdil">Türk dili</label><input type="radio" name="xdil" id="xdil">
+                            <label for="xdil">Rus dili</label><input type="radio" name="xdil" id="xdil">
+                        </form>
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <th>Əsgərlik</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <form>
+                        <select name="xidmet" id="olub-olmayib">
+                            <option value="Xidmətdə olub">Xidmətdə olub</option>
+                            <option value="Xidmətdə olmayıb">Xidmətdə olmayıb</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Təhsil</th>
+                <td bgcolor="B5C1D1" colspan="2" align="center">
+                    <form>
+                        <select name="tehsil" id="ali-orta">
+                            <option value="Orta təhsil">Orta təhsil</option>
+                            <option value="Ali təhsil">Ali təhsil</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+        </thead>
+        <tfoot align="center" bgcolor="B7E5B4">
+            <td colspan="3"><button>Təsdiq et</button></td>
+        </tfoot>
+    </table>
+    </form>
+</body>
+</html>
