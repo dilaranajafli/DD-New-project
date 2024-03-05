@@ -1,0 +1,67 @@
+@import url(https://fonts.google.com/?query=Marhey&preview.size=24);
+
+* {
+    font-family: "Marhey", sans-serif
+}
+
+body {
+    background-color: #747265;
+}
+
+.div1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #747265;
+    width: 750px;
+    height: 1000px;
+    border: 3px solid #3F3432;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 0 0 10px red;
+
+}
+
+.div1 h3 {
+    text-decoration: underline;
+    text-decoration-color: #F5ECE5;
+    text-align: center;
+    color: #F5ECE5;
+    text-shadow: 2px 2px 2px rgb(230, 56, 56);
+}
+
+.div1 img {
+    border: 2px dashed #3F3432;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px red;
+}
+
+.div1 span {
+    text-transform: uppercase;
+    color: #F5ECE5;
+    text-shadow: 2px 2px 2px black;
+    word-spacing: 8px;
+}
+
+.div2 span {
+    text-transform: uppercase;
+    color: #F5ECE5;
+    text-shadow: 2px 2px 2px black;
+    word-spacing: normal;
+}
+
+.div2 h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(57, 3, 3);
+    text-shadow: 2px 2px 2px #F5ECE5;
+}
+
+.div1 a {
+    text-decoration: underline;
+    text-decoration-color: #F5ECE5;
+    color: #F5ECE5;
+    text-shadow: 2px 2px 2px rgb(230, 56, 56)
+}
