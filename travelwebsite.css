@@ -92,9 +92,10 @@ ul li:hover::after {
 
 .car {
     width: 100px; 
-    height: 50px; 
-    background: url(car.png.webp) no-repeat;
-    background-size: contain;
+    height: 100vh; 
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
     animation: drive 5s linear infinite;
 }
@@ -106,6 +107,41 @@ ul li:hover::after {
     100% {
         left: calc(100vw + 100px); 
     }
+}
+
+.car img{
+        align-items: center;
+        padding: 20px;
+        animation: ani 10s ease-out 0s infinite normal none;
+      }
+      @keyframes ani {
+        0%,
+        100% {
+          transform: translateX(0);
+        }
+      
+        10%,
+        30%,
+        50%,
+        70% {
+          transform: translateX(-10px);
+        }
+      
+        20%,
+        40%,
+        60% {
+          transform: translateX(10px);
+        }
+      
+        80% {
+          transform: translateX(8px);
+        }
+      
+        90% {
+          transform: translateX(-8px);
+        }
+      }
+
 }
 
 .home .hometext p {
