@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Madimi One", sans-serif;
+}
+
+.container {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+   
+    
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px;
+
+}
+
+.navbar .nav_logo img {
+    width: 165px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+
+ul li {
+    position: relative;
+}
+
+ul li::before,
+ul li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #00095e;
+    transition: width 0.3s ease;
+}
+
+ul li::before {
+    top: 100%;
+    left: 0;
+}
+
+ul li::after {
+    bottom: -2px;
+    left: 0;
+}
+
+ul li:hover::before,
+ul li:hover::after {
+    width: 100%;
+}
+
+.yb {
+    background-color: #FFC800;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+}
+
+
+
+.home {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-image: url(bg\ img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.car {
+    width: 100px; 
+    height: 50px; 
+    background: url(car.png.webp) no-repeat;
+    background-size: contain;
+    position: relative;
+    animation: drive 5s linear infinite;
+}
+
+@keyframes drive {
+    0% {
+        left: -100px; 
+    }
+    100% {
+        left: calc(100vw + 100px); 
+    }
+}
+
+.home .hometext p {
+    margin: 40px 0px;
+}
+
+.hometext {
+    text-align: center;
+}
+
+.bb {
+    background-color: #00095e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 220px;
+    height: 70px;
+    padding: 10px; 
+}
+
+
+
+section p {
+    text-align: center;
+    margin: 20px 0px 0px;
+}
+
+section button {
+    text-align: center;
+    margin: 20px 0px 0px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+
+.card {
+    width: 15%;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    
+}
+
+.card1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card2 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card3 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+
+
