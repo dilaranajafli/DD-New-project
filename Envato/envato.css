@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.BuyNow {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #51e265a9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.navbar {
+    background-color: rgb(41, 37, 37)
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+.logoimage {
+    width: 150px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+    background-color: rgb(30, 29, 29);
+    color: white;
+}
+
+.Sideoptions {
+    display: flex;
+    gap: 10px
+}
+
+hr {
+    border-color: black;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+    align-items: center;
+    color: black;
+}
+
+.options1 {
+    display: flex;
+    gap: 25px;
+}
+
+.options li {
+    list-style: none;
+}
+
+.options li a:hover {
+    color: #0b0b0b !important
+}
+
+
+.options li a {
+    color: #433f3f;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.mega-box {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.content {
+    background: white;
+    border-radius: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main {
+    width: 25%;
+    line-height: 45px;
+}
+
+
+.main p {
+    color: #433f3f;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mega-items {
+    margin-left: -42px;
+    border-left: 1px solid #ffff;
+}
+
+.main .mega-items li {
+    padding: 0 20px;
+}
+
+.main .mega-items li a {
+    padding: 0px;
+    padding: 0 20px;
+    color: #464545;
+    font-size: 17px;
+    display: inline-block;
+    width: 80%;
+}
+
+.options li:hover .mega-box {
+    transition: all 0.7s;
+    top: 250px;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.icons1 {
+    display: flex;
+    gap: 15px;
+}
+
+
+.body1 {
+    padding: 60px 100px;
+    align-items: center;
+    color: black;
+    display: inline-block;
+
+}
+
+.body1 h1 {
+    margin: 45px 0px 45px;
+}
+
+p,
+a {
+    font-weight: bold;
+}
+
+.Discover {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+    border-color: white;
+    border-radius: 50px;
+}
+
+.Discover:hover {
+    background-color: white;
+    color: #0b0b0b;
+}
+
+.photo {
+    background: url(img/glasses.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.filters {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 60px 100px;
+}
+
+.filters a {
+    color: #282727;
+    /*text-decoration: none;
+ font-size: 18px;
+    font-weight: 500;
+    transition: all 0.2s ease;*/
+}
+
+.filters li a:hover {
+    color: #433d3d !important
+}
+
+/*
+.m-box {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+}
+.cntnt {
+    background: white;
+    border-radius: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.me-items li {
+    padding: 0 20px;
+}
+
+.me-items li a {
+    padding: 0px;
+    padding: 0 20px;
+    color: #464545;
+    font-size: 17px;
+    display: inline-block;
+    width: 20%;
+}
+
+.filters li:hover .m-box {
+    transition: all 0.7s;
+    opacity: 1;
+    visibility: visible;
+} */
+
+/* .accordion {
+    width: 800px;
+} */
+.body1-1 {
+    padding: 20px 100px;
+    align-items: center;
+    color: black;
+    display: inline-block;
+}
+
+.Accordion {
+    max-width: 800px;
+}
+
+.label {
+    position: relative;
+    cursor: pointer
+}
+
+.label i {
+    position: absolute;
+    top: 50%;
+    right: -250px;
+    transform: translateY(-50%)
+}
+
+.cntnt2 {
+    margin: 10px 0px;
+    position: relative;
+    height: 0;  
+}
+
+
+.A1,
+.A2,
+.A3,
+.A4 {
+    display: flex;
+    gap: 5px;
+    padding: 5px 0px
+}
+
+.body2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1, .card2, .card3, .card4{
+    text-align: center;
+}
+.card1 image, .card2 image, .card3 image, .card4 image{
+    position: relative;
+}
+.cards i{
+    position: absolute;
+    transform: translateX(-130%);
+    margin-top: 10px;
+}
+.card1text {
+    padding: 10px;
+}
+
+.card1text h4 {
+    margin: 25px 0px 25px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    gap: 60px;
+}
+
+.altcategory{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 60px;
+    padding: 0px 20px 100px 500px; 
+    align-items: center;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.black {
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.black1 {
+    padding: 60px 100px;
+    font-size: 12px;
+}
+ 
+.txt p {
+    margin: 45px 0px 45px
+}
+
+.black1 h1{
+    margin-top: 30px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  
+}
+
+.submit1 {
+    position: absolute;
+    transform: translateX(200%);
+    
+}
+
+.Shop2 a {
+    color: #fff;
+}
+
+.Shop2 a:hover {
+    color: red;
+}
+
+.Shop2 {
+    margin:40px 0px;
+
+}
+
+.txts2 {
+    margin: 80px 0px 80px;
+}
+
+.Shop2 li {
+    margin: 15px;
+}
+
+.blackfoot{
+    display: flex;
+    justify-content: space-between;
+    background-color: #181818;
+    color: #fff;
+    padding: 20px 100px;
+}
+
+.foot a{
+    color: #fff;
+}
+
+.iconss {
+    display: flex;
+    gap: 25px;
+}
+
+
